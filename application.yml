@@ -1,7 +1,8 @@
 #保存为UTF-8格式
 spring:
   profiles:
-    active: -dev
+    active:
+    - dev
 ---
 spring:
   profiles: dev   #开发坏境
