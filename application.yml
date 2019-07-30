@@ -1,0 +1,14 @@
+#保存为UTF-8格式
+spring:
+  profiles:
+    active: -dev
+---
+spring:
+  profiles: dev   #开发坏境
+  application:
+    name: service-config-dev
+---
+spring:
+  profiles: test #测试坏境
+  application:
+    name: service-config-test
